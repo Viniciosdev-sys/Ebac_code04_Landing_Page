@@ -1,0 +1,86 @@
+
+body{
+    font-family: "Alata";
+    background-color:rgba(18, 107, 0, 0.432);
+    color: black;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 18px;
+
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+#cabecalho .nav .nav-link.active{
+background-color: rgb(18, 107, 0);
+color: rgb(255, 255, 255); 
+}
+
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover {
+    color: rgb(18, 107, 0);
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar-brand {
+    font-family: "Merienda", cursive;
+    
+}
+
+.navbar-toggler {
+    background-color: rgb(18, 107, 0);
+}
+#sobre-a-loja{
+    background-color:rgba(21, 92, 7, 0.178);
+}
+    .carousel-item img{
+        width: 100%; /* Garante que a imagem use toda a largura do slide */
+      height: 600px; /* Define uma altura fixa para o slide */
+      object-fit: cover; /* Ou 'contain' para manter toda a imagem visível */
+      display: block; /* Garante que não haja espaço extra abaixo da imagem */
+    }
+    .section-tittle{
+        font-family: "Merienda";
+    }
+    .section-title ,span{
+        color: rgb(255, 255, 255);
+    }
+.text-colored {
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu .nav-link.active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 107, 0);
+}
+.nav-menu .nav-link:hover {
+    color:rgb(31, 172, 3);
+}
+
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #ffeae6;
+}
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(18, 107, 0);
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    } 
+}
